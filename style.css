@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+html{
+    background: rgb(20, 20, 25);
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(30, 30, 49);
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#header-title{
+    color: rgb(100, 100, 202);
+    font-size: 25px;
+}
