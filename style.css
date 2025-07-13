@@ -2,15 +2,25 @@
     margin: 0px;
 }
 html{
-    background: rgb(20, 20, 25);
+    background: rgb(12, 12, 29);
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header{
     background-color: rgb(30, 30, 49);
-    padding: 25px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
 }
+
 a{
     text-decoration: none;
     color: gray;
@@ -18,7 +28,48 @@ a{
     margin-left: 10px;
     margin-right: 10px;
 }
+main{
+    flex: 1;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(30, 30, 49);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
 #header-title{
     color: rgb(100, 100, 202);
     font-size: 25px;
+}
+
+#search-bar{
+    background-color: rgb(77, 77, 77);
+    width: 300px;
+    border-radius: 10px;
+    color: gray;
+    padding: 5px;
+    padding-left: 20px;
+    transition: all ease-in-out 300ms;
+}
+
+#search-bar:hover{
+    background-color: rgb(12, 12, 29);
+    border: 1px solid; color: blue;
+    padding: 4px;
+    padding-left: 20px;
+}
+
+#settings {
+    display: flex;
+    padding-right: 100px;
+    padding-top: 7px;
 }
